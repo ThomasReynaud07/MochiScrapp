@@ -1,0 +1,12 @@
+python-binance==1.0.19
+pandas==2.2.2
+pandas-ta==0.4.71b0
+python-dotenv==1.0.1
+schedule==1.2.2
+python-telegram-bot==21.0.1
+flask==3.0.0
+flask-cors==4.0.0
+SQLAlchemy==2.0.0
+requests==2.31.0
+numpy==1.24.3
+aiohttp==3.9.0

@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir -la)",
+      "Read(//c/Users/pk84vtk/Downloads/**)",
+      "Bash(unzip -q freqtrade-develop.zip)",
+      "Bash(dir \"C:\\\\Users\\\\pk84vtk\\\\Downloads\\\\freqtrade-develop\")",
+      "Bash(dir \"C:\\\\Users\\\\pk84vtk\\\\Downloads\\\\freqtrade-develop\\\\freqtrade\")",
+      "Bash(git add *)"
+    ]
+  }
+}

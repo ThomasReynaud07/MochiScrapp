@@ -1,0 +1,72 @@
+# ========================================
+# ENVIRONNEMENT & CONFIG
+# ========================================
+.env
+.env.local
+.env.*.local
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ========================================
+# DONNÉES & LOGS
+# ========================================
+logs/
+*.log
+trading_bot.log
+trading_data.json
+*.db
+*.sqlite
+
+# ========================================
+# PYTHON
+# ========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ========================================
+# VENV
+# ========================================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ========================================
+# IDE
+# ========================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ========================================
+# OS
+# ========================================
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*~
