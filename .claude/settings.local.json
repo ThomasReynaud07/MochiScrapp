@@ -6,7 +6,11 @@
       "Bash(unzip -q freqtrade-develop.zip)",
       "Bash(dir \"C:\\\\Users\\\\pk84vtk\\\\Downloads\\\\freqtrade-develop\")",
       "Bash(dir \"C:\\\\Users\\\\pk84vtk\\\\Downloads\\\\freqtrade-develop\\\\freqtrade\")",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(python -m py_compile bot.py config.py database.py api.py telegram_bot.py notifications.py position_tracker.py)",
+      "Bash(git commit -m ' *)",
+      "Bash(awk '{print $9, \"-\", $5}')",
+      "Bash(python -m py_compile database_sql.py risk_advanced.py strategy_manager.py discord_webhooks.py dashboard.py)"
     ]
   }
 }

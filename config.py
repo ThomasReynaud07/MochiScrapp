@@ -46,6 +46,25 @@ API_HOST = os.getenv("API_HOST", "0.0.0.0")
 API_PORT = int(os.getenv("API_PORT", "5000"))
 
 # ========================================
+# DISCORD WEBHOOKS (v2.1.0)
+# ========================================
+DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "")
+DISCORD_ENABLED = bool(DISCORD_WEBHOOK_URL)
+
+# ========================================
+# DASHBOARD WEB (v2.1.0)
+# ========================================
+DASHBOARD_HOST = os.getenv("DASHBOARD_HOST", "0.0.0.0")
+DASHBOARD_PORT = int(os.getenv("DASHBOARD_PORT", "8080"))
+
+# ========================================
+# RISK MANAGEMENT AVANCÉ (v2.1.0)
+# ========================================
+KELLY_FRACTION = float(os.getenv("KELLY_FRACTION", "0.25"))
+MAX_DAILY_LOSS_PCT = float(os.getenv("MAX_DAILY_LOSS_PCT", "5.0"))
+MAX_DRAWDOWN_PCT = float(os.getenv("MAX_DRAWDOWN_PCT", "20.0"))
+
+# ========================================
 # LOGGING
 # ========================================
 LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")
